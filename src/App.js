@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Navigate replace to="/movie" />} />
           <Route path="/movie" element={<Movie />}></Route>
-          <Route path="/movies" element={<Profile />}></Route>
+          <Route path="/profile" element={<Profile />}></Route>
         </Routes>
         <footer>
           <div className="containernav">
