@@ -2,3 +2,88 @@
   color: white;
   min-height: 100vh;
 }
+
+.containprofile > h1 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.containcard {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.topmenu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 15px;
+}
+
+.cardprofile {
+  margin-bottom: 100px;
+  background: rgb(35, 35, 35);
+  padding-top: 85px;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+.pp {
+  position: absolute;
+  top: -50px;
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.pp img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.nama {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.student {
+  padding: 3px 6px;
+  background-color: rgb(253, 199, 76);
+  color: black;
+  font-size: 11px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.location {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.line {
+  margin-bottom: 20px;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

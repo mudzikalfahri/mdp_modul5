@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(21, 21, 21);
+  background-color: rgba(21, 21, 21, 0.97);
 }
 
 .App {
@@ -19,13 +19,19 @@ body {
   backdrop-filter: blur(10px);
 }
 
+.containerhead > p {
+  font-size: 18px;
+  font-weight: 800;
+  color: rgb(253, 199, 76);
+}
+
 .containerhead {
   max-width: 440px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10px;
+  padding: 20px 20px;
 }
 
 .menuicon {
@@ -42,7 +48,7 @@ footer {
 }
 
 .containernav {
-  padding: 30px 10px;
+  padding: 30px 0px;
   max-width: 440px;
   display: flex;
   margin: auto;

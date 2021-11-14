@@ -15,6 +15,7 @@ function App() {
       <header className="header">
         <div className="containerhead">
           <HiMenuAlt2 className="menuicon" />
+          <p>Kel 24</p>
           <HiSearch className="menuicon" />
         </div>
       </header>
