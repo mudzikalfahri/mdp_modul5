@@ -1,6 +1,6 @@
 import React from "react";
 
-function index() {
+function Home() {
   return (
     <div className="text-center flex flex-col justify-center items-center gap-2 min-h-screen">
       <h1 className="text-5xl font-bold">WEFOOTWEAR API</h1>
@@ -25,4 +25,4 @@ function index() {
   );
 }
 
-export default index;
+export default Home;
