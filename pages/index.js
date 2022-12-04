@@ -10,6 +10,10 @@ function Home() {
         <p>GET /api/items</p>
       </div>
       <div className="">
+        <h2>Get all categories</h2>
+        <p>GET /api/categories</p>
+      </div>
+      <div className="">
         <h2>Get single item</h2>
         <p>GET /api/items/:id</p>
       </div>

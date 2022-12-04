@@ -1,5 +1,5 @@
 import data from "../../../app/data.json";
-
+import NextCors from "nextjs-cors";
 export default async (req, res) => {
   await NextCors(req, res, {
     // Options

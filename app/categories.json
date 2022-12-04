@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "611908b3347c310cb83f11a1",
+    "name": "Nike product",
+    "slug": "nike-product",
+    "published_at": "2021-08-15T12:29:42.911Z",
+    "createdAt": "2021-08-15T12:29:39.985Z",
+    "updatedAt": "2021-08-15T12:29:43.069Z",
+    "__v": 0,
+    "id": "611908b3347c310cb83f11a1"
+  },
+  {
+    "_id": "611908bd347c310cb83f11a2",
+    "name": "Adidas",
+    "slug": "adidas",
+    "published_at": "2021-08-15T12:29:54.545Z",
+    "createdAt": "2021-08-15T12:29:49.830Z",
+    "updatedAt": "2021-08-15T12:29:54.657Z",
+    "__v": 0,
+    "id": "611908bd347c310cb83f11a2"
+  },
+  {
+    "_id": "611908cd347c310cb83f11a3",
+    "name": "Converse",
+    "slug": "converse",
+    "published_at": "2021-08-15T12:30:09.165Z",
+    "createdAt": "2021-08-15T12:30:05.955Z",
+    "updatedAt": "2021-08-15T12:30:09.568Z",
+    "__v": 0,
+    "id": "611908cd347c310cb83f11a3"
+  },
+  {
+    "_id": "611908db347c310cb83f11a4",
+    "name": "Puma",
+    "slug": "puma",
+    "published_at": "2021-08-15T12:30:22.387Z",
+    "createdAt": "2021-08-15T12:30:19.025Z",
+    "updatedAt": "2021-08-15T12:30:22.507Z",
+    "__v": 0,
+    "id": "611908db347c310cb83f11a4"
+  },
+  {
+    "_id": "611908f7347c310cb83f11a5",
+    "name": "New balance",
+    "slug": "new-balance",
+    "published_at": "2021-08-15T12:30:56.307Z",
+    "createdAt": "2021-08-15T12:30:47.924Z",
+    "updatedAt": "2021-08-15T12:30:56.466Z",
+    "__v": 0,
+    "id": "611908f7347c310cb83f11a5"
+  },
+  {
+    "_id": "61190929347c310cb83f11a6",
+    "name": "Mizuno",
+    "slug": "mizuno",
+    "published_at": "2021-08-15T12:31:45.367Z",
+    "createdAt": "2021-08-15T12:31:37.940Z",
+    "updatedAt": "2021-08-15T12:31:45.494Z",
+    "__v": 0,
+    "id": "61190929347c310cb83f11a6"
+  }
+]
