@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# WEFOOTWEAR STORE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Full Stack E-commerce Website for Footwear Store.
 
-## Available Scripts
+![Thumbnail](https://i.ibb.co/bLb6DpL/wefootwear-ss-min.jpg)
 
-In the project directory, you can run:
+## About The Project
 
-### `yarn start`
+**Wefootwear E-commerce** is an example online shop built with Next js.
+[demo](https://wefootwear.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Stacks
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Next js](https://nextjs.org/) (React Framework)
+- [React](reactjs.org)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Strapi CMS](https://strapi.io/)
+- [MongoDB](https://www.mongodb.com/cloud/atlas)
+- [Stripe](https://stripe.com)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- Vercel (deployment)
 
-### `yarn test`
+**Some features**:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Sign up and sign In authentication
+- Incremental Static Regeneration on product page
+- Add or remove product from basket or wishlist page
+- Search products by category
+- Live search product
+- stripe for processing the payment (test mode) 
+(use card number: 4242 4242 4242 4242 to complete the payment)
+- order page to display successful order
 
-### `yarn build`
+### Clone Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/mudzikalfahri/wefootwear-ecommerce.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Add .env.local file to root client directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+NEXT_PUBLIC_APIURL
+STRIPE_SIGNING_SECRET
+HOST
+STRIPE_SECRET_KEY
+STRIPE_PUBLIC_KEY
+```
